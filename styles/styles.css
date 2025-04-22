@@ -1,0 +1,100 @@
+/* aca todas las etiquetas */
+header{
+  text-align: center;
+  background-color: #C2A3E0;
+  border:2px solid black;
+  padding: 0 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}   
+
+
+button{
+
+margin: 2px;
+border: 2px solid black;
+background-color: #D27D2C;
+
+}
+p { 
+    margin: 1%;
+}
+h1 { 
+    color: #D27D2C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: solid black;
+}
+h3{
+    text-align: center;
+}
+body{
+    background-color: #F5E6C4;
+}
+footer{
+    background-color: #C2A3E0;
+    text-align: center;
+    border:2px solid black;
+}
+
+
+/* aca todas las clases */
+.subtitulo{
+    text-align: center;
+}
+.divtitulos h2 {
+    text-align: center;
+}
+.listacentrada{
+    text-align: center;
+}
+.izquierda {
+    float: left;
+    border: 2px solid black;
+    margin: 0 1% 1% 1%;
+}
+.centro{ 
+    text-align: center; 
+    margin: 1%;
+    
+    
+}
+.derecha{
+    float: right;
+    border: 2px solid black;
+    margin: 0 1% 0 1%;
+    padding: auto;
+}
+.color{
+    color: #F5E6C4;
+}
+.formulario-opinion h3{
+    text-align: left;
+}
+.album{
+  text-align: center;
+  border: 2px solid black;
+  margin: 2% 25% 2% 25%;
+  
+}
+.margin-parrafos{
+    margin-bottom: 3%;
+}
+
+/* aca todas los id */
+
+#ozzy{
+    padding-left: 10px;
+}
+#bill{
+    margin-top: 6%;
+}
+#tony{
+    margin-top: 7%;
+}
+#geezer{
+    margin-top: 8%;
+}
