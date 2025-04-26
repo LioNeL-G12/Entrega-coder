@@ -42,6 +42,11 @@ footer{
 
 
 /* aca todas las clases */
+.overflow{
+    overflow-x: hidden;
+
+}
+
 .subtitulo{
     text-align: center;
 }
@@ -54,19 +59,22 @@ footer{
 .izquierda {
     float: left;
     border: 2px solid black;
-    margin: 0 1% 1% 1%;
+    margin: 1%;
+    max-width: 100%;
 }
 .centro{ 
     text-align: center; 
     margin: 1%;
+    max-width: 100%;
     
     
 }
 .derecha{
     float: right;
     border: 2px solid black;
-    margin: 0 1% 0 1%;
+    margin: 1%;
     padding: auto;
+    max-width: 100%;
 }
 .color{
     color: #F5E6C4;
