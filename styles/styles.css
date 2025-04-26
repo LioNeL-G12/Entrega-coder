@@ -4,12 +4,16 @@ header{
   background-color: #C2A3E0;
   border:2px solid black;
   padding: 0 20px;
+  width: 100%;
+  overflow-x: hidden;
 }
 nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    max-width: 100%;
+    height: 100%;
 }   
 
 
@@ -18,7 +22,9 @@ button{
 margin: 2px;
 border: 2px solid black;
 background-color: #D27D2C;
-
+max-width: 100%;
+height: 100%;
+overflow-x : hidden;
 }
 p { 
     margin: 1%;
@@ -59,15 +65,15 @@ footer{
 .izquierda {
     float: left;
     border: 2px solid black;
-    margin:1%;
-    max-width: 100%;
+    margin:0 3% 0 0;
+    width: auto;
     height: auto;
 }
 .centro{ 
     text-align: center; 
     margin: 1%;
     max-width: 100%;
-    
+    height: auto;
     
 }
 .derecha{
@@ -76,6 +82,7 @@ footer{
     margin: 1%;
     padding: auto;
     max-width: 100%;
+    height: auto;
 }
 .color{
     color: #F5E6C4;
