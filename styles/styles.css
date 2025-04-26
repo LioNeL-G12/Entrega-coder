@@ -1,50 +1,106 @@
 /* aca todas las etiquetas */
-header{
-  text-align: center;
-  background-color: #C2A3E0;
-  border:2px solid black;
-  padding: 0 20px;
-  width: 100%;
-  overflow-x: hidden;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-nav ul{
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+  
+nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    max-width: 100%;
-    height: 100%;
-}   
-
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+nav a {
+    color: #bbb;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+  
 
 button{
-
+box-sizing: border-box;
 margin: 2px;
 border: 2px solid black;
+border-radius: 5px;
 background-color: #D27D2C;
 max-width: 100%;
-height: 100%;
+height: auto;
+
 overflow-x : hidden;
+}  
+ 
+section {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+  
+section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+  
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    flex: 1 1 250px;
 }
 p { 
     margin: 1%;
 }
-h1 { 
-    color: #D27D2C;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: solid black;
+main {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+h1{
+    text-align: center;
+}  
+   
+h2 {
+    margin-bottom: 10px;
+    color: #f0c674;
 }
+  
 h3{
     text-align: center;
 }
-body{
-    background-color: #F5E6C4;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
 }
-footer{
-    background-color: #C2A3E0;
+  
+
+ 
+footer {
+    background-color: #1f1f1f;
     text-align: center;
-    border:2px solid black;
-}
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+  }
 
 
 /* aca todas las clases */
@@ -63,11 +119,14 @@ footer{
     text-align: center;
 }
 .izquierda {
+    
+    display: block;
     float: left;
     border: 2px solid black;
-    margin:0 3% 0 0;
-    width: auto;
+    margin:0 1% 0 0;
+    max-width: 100%;
     height: auto;
+ 
 }
 .centro{ 
     text-align: center; 
@@ -114,3 +173,17 @@ footer{
 #geezer{
     margin-top: 8%;
 }
+  
+/*media query para q sea responsive */
+
+@media (max-width: 768px) {
+    section {
+      flex-direction: column !important;
+      text-align: center;
+    }
+  
+    section div {
+      flex: 1 1 100%;
+    }
+  }
+  
