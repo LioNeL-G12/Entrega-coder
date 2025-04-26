@@ -4,7 +4,6 @@ header{
   background-color: #C2A3E0;
   border:2px solid black;
   padding: 0 20px;
-  max-width: 100%;
 }
 nav ul{
     list-style: none;
@@ -60,8 +59,9 @@ footer{
 .izquierda {
     float: left;
     border: 2px solid black;
-    margin: 1%;
+    margin:1%;
     max-width: 100%;
+    height: auto;
 }
 .centro{ 
     text-align: center; 
