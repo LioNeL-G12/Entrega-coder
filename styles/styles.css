@@ -38,9 +38,10 @@ nav a {
 button{
 box-sizing: border-box;
 margin: 2px;
-border: 2px solid black;
 border-radius: 5px;
-background-color: #D27D2C;
+text-decoration: noneD;
+background-color: #333;
+color: #fff;
 max-width: 100%;
 height: auto;
 
@@ -55,9 +56,9 @@ section {
     align-items: center;
 }
   
-section:nth-child(even) {
+body.miembros section:nth-child(even) {
     flex-direction: row-reverse;
-}
+  }
   
 section img {
     max-width: 100%;
@@ -115,6 +116,9 @@ footer {
 .divtitulos h2 {
     text-align: center;
 }
+.titulos h2{
+    text-align: center;
+}
 .listacentrada{
     text-align: center;
 }
@@ -144,7 +148,8 @@ footer {
     height: auto;
 }
 .color{
-    color: #F5E6C4;
+    color: #fff;
+    background-color: #1f1f1f;
 }
 .formulario-opinion h3{
     text-align: left;
