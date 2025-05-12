@@ -1,0 +1,27 @@
+@use "./variables"as*;
+
+%botones{
+     box-sizing: border-box;
+  margin: 2px;
+  border-radius: 5px;
+  text-decoration: noneD;
+  background-color: #333;
+  color: #fff;
+  max-width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+%footer{
+    background-color: $colorfooter;
+	text-align: center;
+	padding: 15px;
+	margin-top: 50px;
+	font-size: 0.9rem;
+}
+%albumes{
+    display: flex;
+	flex-direction: column;
+	text-align: center;
+	border-radius: 5px black;
+	margin: 2% 25% 2% 25%;
+}
