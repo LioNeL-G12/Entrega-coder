@@ -2,7 +2,7 @@ button {
   box-sizing: border-box;
   margin: 2px;
   border-radius: 5px;
-  text-decoration: noneD;
+  text-decoration: none;
   background-color: #333;
   color: #fff;
   max-width: 100%;
@@ -22,8 +22,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  border-radius: 5px black;
-  margin: 2% 25% 2% 25%;
+  margin: 5%;
 }
 
 * {
@@ -62,6 +61,10 @@ nav a:hover {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   margin-bottom: 40px;
   display: flex;
@@ -94,6 +97,7 @@ body.miembros section:nth-child(even) {
 
 p {
   margin: 1%;
+  text-align: justify;
 }
 
 main {
@@ -151,7 +155,7 @@ h3 {
 }
 
 .derecha {
-  text-align: right;
+  float: right;
   border-radius: 2px solid black;
   margin: 1%;
   padding: auto;
