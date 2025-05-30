@@ -50,6 +50,7 @@ section {
 	flex-wrap: wrap;
 	gap: 20px;
 	align-items: center;
+	 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 	img {
 		max-width: 100%;
 		height: auto;
@@ -152,6 +153,10 @@ footer {
 }
 .album {
 	@extend %albumes;
+}
+.gradiente{
+background: #121212;
+background: linear-gradient(270deg, rgba(18, 18, 18, 1) 0%, rgba(51, 51, 51, 1) 55%, rgba(18, 18, 18, 1) 100%);
 }
 .margin-parrafos {
 	margin-bottom: 3%;
